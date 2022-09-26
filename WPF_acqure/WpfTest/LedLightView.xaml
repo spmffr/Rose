@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="FrondScope.LedLightView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+  <Grid >
+
+    <!-- Inner ellipse; The fill for this is updated by a dependency property   -->
+    <Ellipse Name="UxLedEllipse" StrokeThickness="0"  >
+
+    </Ellipse>
+
+    <!-- Outer border;  its border color and thickness is updated by a dependency property -->
+    <Ellipse Name="UxLedEllipseBorder" StrokeThickness="5" Stroke="Black" >
+
+    </Ellipse>
+
+
+  </Grid>
+</UserControl>

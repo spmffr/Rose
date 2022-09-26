@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FrondScope" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="adcKHz" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="Qadc" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">1.52587891E-05</Value>
+    </Setting>
+    <Setting Name="tmedian_ms" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="tfilter_ms" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="initLevelCh0_x" Type="System.UInt16" Scope="Application">
+      <Value Profile="(Default)">45000</Value>
+    </Setting>
+    <Setting Name="initLevelCh0_y" Type="System.UInt16" Scope="Application">
+      <Value Profile="(Default)">62000</Value>
+    </Setting>
+    <Setting Name="initLevelCh1_x" Type="System.UInt16" Scope="Application">
+      <Value Profile="(Default)">2000</Value>
+    </Setting>
+    <Setting Name="initLevelCh1_y" Type="System.UInt16" Scope="Application">
+      <Value Profile="(Default)">64000</Value>
+    </Setting>
+    <Setting Name="levelIirCoef" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.9</Value>
+    </Setting>
+    <Setting Name="levelClipFactor" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="Thresh_0_1" Type="System.Int16" Scope="Application">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Thresh_1_0" Type="System.Int16" Scope="Application">
+      <Value Profile="(Default)">-100</Value>
+    </Setting>
+    <Setting Name="Barcode1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">barcode1.bin</Value>
+    </Setting>
+    <Setting Name="Barcode2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">barcode2.bin</Value>
+    </Setting>
+    <Setting Name="hiResEnable" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MinMove_mm" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
